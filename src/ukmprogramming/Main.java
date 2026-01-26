@@ -286,7 +286,7 @@ public class Main {
 			 System.out.printf ("║ %-60s ║%n", "Nama Buku: " + judul);
 			 System.out.printf ("║ %-60s ║%n", "Pengarang Buku: " + pengarang);
 			 System.out.printf ("║ %-60s ║%n", "Penerbit Buku: " + penerbit);
-			 System.out.printf ("║ %-60s ║%n", "Tahun Terbit: " + tahunIn);
+			 System.out.printf ("║ %-60s ║%n", "Tahun Terbit: " + tahun);
 			 System.out.printf ("║ %-60s ║%n", "Stok: " + stok);
 			 System.out.printf ("║ %-60s ║%n", "ID Kategori: " + kategori);
 			 System.out.println("╚══════════════════════════════════════════════════════════════╝");
@@ -733,3 +733,4 @@ public class Main {
 	}
 
 }
+
