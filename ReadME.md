@@ -56,6 +56,13 @@ Aplikasi Perpustakaan berbasis **Command Line Interface (CLI)** yang dibangun me
 
 ---
 
-## 📦 Instalasi
+## 📦 XML Code untuk Install MySQL Connector
+```
+<classpathentry kind="lib" path="Your Path">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+</classpathentry>
+```
+- Ganti **Your Path** dengan lokasi file MySQL Connector
 
-``lss``
