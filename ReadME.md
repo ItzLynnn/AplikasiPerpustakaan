@@ -46,6 +46,9 @@ Aplikasi Perpustakaan berbasis **Command Line Interface (CLI)** yang dibangun me
 16. Update Kategori  
 17. Hapus Kategori  
 
+## 📊 Statistik Data
+18. Statistik
+
 ---
 
 ## 🧱 Tech Stack
@@ -58,5 +61,6 @@ Aplikasi Perpustakaan berbasis **Command Line Interface (CLI)** yang dibangun me
 
 ## 📦 Tutorial Instalasi & Penggunaan
 [Click Me](https://drive.google.com/file/d/1XGXTdah7hH3qLtawzv2sn_abQnJSHWuT/view?usp=sharing)
+
 
 
