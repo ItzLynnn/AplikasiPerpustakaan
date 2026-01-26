@@ -24,8 +24,7 @@ public class PeminjamanManager {
                 ps.setInt(2, idBuku);
                 ps.setDate(3, Date.valueOf(LocalDate.now()));
                 ps.setInt(4, lamaPeminjaman);
-                ps.executeUpdate();
-                
+
                 int affected = ps.executeUpdate();
 
                 if(affected > 0) {
@@ -237,3 +236,4 @@ public class PeminjamanManager {
     }
 
 }
+
