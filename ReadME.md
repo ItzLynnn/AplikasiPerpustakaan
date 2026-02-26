@@ -62,5 +62,7 @@ Aplikasi Perpustakaan berbasis **Command Line Interface (CLI)** yang dibangun me
 ## 📦 Tutorial Instalasi & Penggunaan
 [Click Me](https://drive.google.com/file/d/1XGXTdah7hH3qLtawzv2sn_abQnJSHWuT/view?usp=sharing)
 
+## 🔗 Download MySQL Connector Disini
+[Dowload Here](https://dev.mysql.com/downloads/connector/j/)
 
 
