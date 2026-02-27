@@ -23,22 +23,20 @@ Aplikasi Perpustakaan berbasis **Command Line Interface (CLI)** yang dibangun me
 1. Daftar Buku  
 2. Tambah Buku  
 3. Update Buku  
-4. Hapus Buku  
+4. Hapus Buku
+5. 13. Cek Stok Buku  
 
 ### 👥 Manajemen Anggota
-5. Daftar Anggota  
-6. Tambah Anggota  
-7. Update Anggota  
-8. Hapus Anggota  
+6. Daftar Anggota  
+7. Tambah Anggota  
+8. Update Anggota  
+9. Hapus Anggota  
 
 ### 🔄 Peminjaman
-9. Peminjaman Buku  
-10. Pengembalian Buku  
-11. Cek Peminjaman Buku  
-12. Daftar Peminjaman Buku  
-
-### 📦 Manajemen Stok
-13. Cek Stok Buku  
+10. Peminjaman Buku  
+11. Pengembalian Buku  
+12. Cek Peminjaman Buku  
+13. Daftar Peminjaman Buku  
 
 ### 🗂️ Manajemen Kategori
 14. Daftar Kategori  
@@ -64,5 +62,6 @@ Aplikasi Perpustakaan berbasis **Command Line Interface (CLI)** yang dibangun me
 
 ## 🔗 Download MySQL Connector Disini
 [Dowload Here](https://dev.mysql.com/downloads/connector/j/)
+
 
 
