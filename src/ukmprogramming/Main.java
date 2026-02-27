@@ -237,12 +237,24 @@ public class Main {
 
 	/* Function untuk mengupdate Buku*/
 	private static void updateBuku() {
+		int idBuku = 0;
 		int konfirmasi;
 		clear();
 		header("Update Buku");
 		
 		System.out.print("ID Buku yang ingin diupdate: ");
-		int idBuku = Integer.parseInt(scanner.nextLine());
+		
+		try {
+			idBuku = Integer.parseInt(scanner.nextLine());
+
+            if (idBuku < 0) {
+                System.err.println("[!] Angka tidak boleh kurang dari 0");
+                return;
+            }
+        } catch (NumberFormatException e) {
+            System.err.println("[!] Input harus berupa angka");
+            return;
+        }
 
 		try (ResultSet rs = BukuManager.getBukuByIdRaw(idBuku)){
 			if(!rs.next()) {
@@ -286,7 +298,7 @@ public class Main {
 			 System.out.printf ("║ %-60s ║%n", "Nama Buku: " + judul);
 			 System.out.printf ("║ %-60s ║%n", "Pengarang Buku: " + pengarang);
 			 System.out.printf ("║ %-60s ║%n", "Penerbit Buku: " + penerbit);
-			 System.out.printf ("║ %-60s ║%n", "Tahun Terbit: " + tahun);
+			 System.out.printf ("║ %-60s ║%n", "Tahun Terbit: " + tahunIn);
 			 System.out.printf ("║ %-60s ║%n", "Stok: " + stok);
 			 System.out.printf ("║ %-60s ║%n", "ID Kategori: " + kategori);
 			 System.out.println("╚══════════════════════════════════════════════════════════════╝");
@@ -733,4 +745,3 @@ public class Main {
 	}
 
 }
-
