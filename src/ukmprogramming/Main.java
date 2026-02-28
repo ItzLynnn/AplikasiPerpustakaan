@@ -554,7 +554,7 @@ public class Main {
 		    System.out.printf ("║ %-60s ║%n", "Nama Buku: " + namaBuku);
 		    System.out.printf ("║ %-60s ║%n", "ID Anggota: " + idAnggota);
 		    System.out.printf ("║ %-60s ║%n", "Nama Anggota: " + namaAnggota);
-		    System.out.printf ("║ %-60s ║%n", "Lama Pinjam: " + lama);
+		    System.out.printf ("║ %-60s ║%n", "Lama Pinjam: " + lama + " Hari");
 		    System.out.println("╚══════════════════════════════════════════════════════════════╝");
 	    
 	    } catch (Exception e) {
@@ -745,3 +745,4 @@ public class Main {
 	}
 
 }
+
