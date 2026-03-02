@@ -286,8 +286,18 @@ public class Main {
 
 		     Integer tahunIn = readOptionalInt("Tahun [" + tahunLama + "]: ");
 		     int tahun = (tahunIn == null) ? tahunLama : tahunIn;
+		     
+	    	 Integer stokln = readOptionalInt("Stok [" + stokLama + "]: ");
 
-		     Integer stokln = readOptionalInt("Stok [" + stokLama + "]: ");
+		     try {
+		            if (stokln < 0) {
+		                System.err.println("[!] Angka tidak boleh kurang dari 0");
+		                return;
+		            }
+		        } catch (NumberFormatException e) {
+		            System.err.println("[!] Input harus berupa angka");
+		            return;
+		        }
 		     int stok = (stokln == null) ? stokLama : stokln;
 
 		     Integer katIn = readOptionalInt("Kategori Buku [" + kategoriLama + "]: ");
@@ -745,4 +755,3 @@ public class Main {
 	}
 
 }
-
